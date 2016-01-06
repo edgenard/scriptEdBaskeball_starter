@@ -9,9 +9,9 @@ $(document).ready(function(){
     };
     
     var updateGameUI = function(shotString){
-        $(".result").text("");
+        $("#result").text("");
         if(shotString){
-            $(".result").text(shotString);
+            $("#result").text(shotString);
         }
       $("#player-one-score").text(gameState.playerOneScore);
       $(".player-one-name").text(gameState.playerOneName);
@@ -84,11 +84,10 @@ $(document).ready(function(){
     });
     
     
-    $(".js-reset").click(function(){
+    $(".js-new-game").click(function(){
         startGame(); 
     });
     
-    startGame();
 
 
 });
