@@ -5,6 +5,9 @@ var promptForPlayerName = function (playerNumber) {
 };
 
 function tryTwoPointShot(){
-    
+    var random1 = Math.random();
+    var random2  = Math.random();
+    if(random1 > 0.2 && random2 > 0.2) return true;
+    return false;
 }
 
