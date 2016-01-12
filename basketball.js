@@ -4,3 +4,7 @@ var promptForPlayerName = function (playerNumber) {
     return name;
 };
 
+function tryTwoPointShot(){
+    
+}
+
